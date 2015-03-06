@@ -1,0 +1,58 @@
+
+.imageWrapper {
+    position: relative;
+    width:22%;
+    margin:1%;
+    padding:0;
+    display:inline-block; 
+}
+.imageWrapper img {
+	width:100%;
+	border-radius:50%;
+}
+.imageWrapper div.text {
+  
+    opacity: 0;
+    position: absolute;
+    bottom: 0%;
+    margin:0px;
+    left: 0px;
+    right: 0px;
+    height:100%;
+    color: #ffffff;
+    border-radius:50%;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    transition: opacity 500ms;
+    
+}
+
+.imageWrapper div.text .date{
+	font-size:1em;
+    margin:0px;
+    position: absolute;
+    top:40%;
+	padding:1%;
+    width:98%;
+    height:28%;
+	background-color: #0F8BD9;
+}
+.imageWrapper div.text .title{
+	font-size:1.3em;
+	padding:1%;
+    position: absolute;
+    width:98%;
+    margin:0px;
+    top:70%;
+    height:28%;
+	background-color: #64B2E3;
+}
+
+.imageWrapper:hover div.text {
+    opacity: 0.8;
+    border-radius:50%;
+}
