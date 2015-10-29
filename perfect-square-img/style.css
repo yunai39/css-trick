@@ -1,0 +1,20 @@
+
+.imgSquare {
+    position: relative;
+    width: 100%;
+}
+.imgSquare .imgSquareContainer {
+    background-color: white;
+    box-shadow: 1px 1px 12px #555;
+    margin: 5%;
+    padding-bottom: 100%;
+    position: relative;
+    width: 90%;
+}
+
+.imgSquare .imgSquareContainer img {
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+}
