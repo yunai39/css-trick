@@ -16,4 +16,11 @@ Perfect Square Img
 
 Generate a perfect square img without any js
 Result here:
+http://codepen.io/anon/pen/MaXGMY
+
+
+Panel Slider
+============
+
+A little display for picture
 http://codepen.io/anon/pen/JYZGWX
